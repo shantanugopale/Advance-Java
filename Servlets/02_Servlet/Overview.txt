@@ -1,0 +1,1 @@
+02_Servlet Accpet Details And Show On Servlet Page Redirect Servlet From First Page To SecondPage.

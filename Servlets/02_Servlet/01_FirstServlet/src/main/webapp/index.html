@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Survey Form</title>
+<style>
+#d1{
+	border : 4px solid black;
+}
+	h1{
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+<div id="d1">
+<h1>Survey Form</h1>
+	<form action="FirstServlet" method="post">
+		<div>
+			<center>
+				Name : <input type="text" name="name"><br>
+				<br> Email Id : <input type="email" name="email"><br>
+				<br> Address : <input type="textarea" name="address"><br>
+				<br> Gender : Male <input type="radio" name="username">
+				Female <input type="radio" name="username"> Others <input
+					type="radio" name="username"><br>
+				<br> Qualification : SSC <input type="checkbox"
+					name="qualification"> HSC <input type="checkbox"
+					name="qualification"> Graduation <input type="checkbox"
+					name="qualification"><br>
+				<br> Age : <input type="number" name="age"><br>
+				<br> State : <select name="state">
+					<option>Maharashtra</option>
+					<option>Mumbai</option>
+					<option>Bengluru</option>
+					<option>Hyderabad</option>
+				</select><br>
+				<br> Upload your Resume : <input type="file" name="file"><br>
+				<br> <input type="submit" value="Submit">
+			</center>
+		</div>
+	</form>
+	</div>
+</body>
+</html>
